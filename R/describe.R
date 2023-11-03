@@ -1117,7 +1117,7 @@ tek_örnek_oran <- function(n,a,alfa=c(0.01,0.05),hedef,alternatif=c("Büyüktü
 
 
 }
-iki_örneklem_oran<-function(a1,a2,n1,n2,alternatif=c("Büyüktür","Küçüktür")){
+iki_orneklem_oran<-function(a1,a2,n1,n2,alternatif=c("Büyüktür","Küçüktür")){
   p1=a1/n1
   p2=a2/n2
   s_hata = sqrt((p1*(1-p1)/n1)+(p2*(1-p2))/n2)
